@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "teams-card-layout-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/teamsCardLayout/TeamsCardLayoutWebPart.js",
+          "manifest": "./src/webparts/teamsCardLayout/TeamsCardLayoutWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "TeamsCardLayoutWebPartStrings": "lib/webparts/teamsCardLayout/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}
